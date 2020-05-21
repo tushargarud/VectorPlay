@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e914bf75-1cbb-4f5b-85d8-af1e2bff4453" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a3FCqgEtI60LKlkHhPwYnVx8kg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CustomTriangeObjectSimple">
+    <configuration name="CustomTriangeObject" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VectorPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CustomTriangeObject.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomTriangeObjectSimple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VectorPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CustomTriangeObjectSimple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PlayMusic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VectorPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PlayMusic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShowImage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VectorPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShowImage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VectorPlay" type="PythonConfigurationType" factoryName="Python">
+      <module name="VectorPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SaySomething.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VectorPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.VectorPlay" />
+      <item itemvalue="Python.CustomTriangeObject" />
+      <item itemvalue="Python.ShowImage" />
+      <item itemvalue="Python.PlayMusic" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.CustomTriangeObjectSimple" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.CustomTriangeObjectSimple" />
+        <item itemvalue="Python.PlayMusic" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.CustomTriangeObject" />
+        <item itemvalue="Python.ShowImage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e914bf75-1cbb-4f5b-85d8-af1e2bff4453" name="Default Changelist" comment="" />
+      <created>1585956245194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585956245194</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="567" y="106" key="#EventListener" timestamp="1586035237028">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="567" y="106" key="#EventListener/0.23.1680.940@0.23.1680.940" timestamp="1586035237028" />
+    <state x="296" y="161" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587074204257">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="296" y="161" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.940@0.23.1680.940" timestamp="1587074204257" />
+    <state x="621" y="183" key="#xdebugger.evaluate" timestamp="1589647206994">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="621" y="183" key="#xdebugger.evaluate/0.23.1680.940@0.23.1680.940" timestamp="1589647206994" />
+    <state width="1680" height="438" key="DebuggerActiveHint" timestamp="1589657002915">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1680" height="438" key="DebuggerActiveHint/0.23.1680.940@0.23.1680.940" timestamp="1589657002915" />
+    <state width="1379" height="660" key="GridCell.Tab.0.bottom" timestamp="1589856894011">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1379" height="238" key="GridCell.Tab.0.bottom/-128.-1057.1920.1057/0.23.1680.940@0.23.1680.940" timestamp="1589835456702" />
+    <state width="1379" height="660" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1589856894011" />
+    <state width="1379" height="238" key="GridCell.Tab.0.bottom/0.23.1920.970@0.23.1920.970" timestamp="1589821588381" />
+    <state width="1379" height="660" key="GridCell.Tab.0.center" timestamp="1589856894011">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1379" height="238" key="GridCell.Tab.0.center/-128.-1057.1920.1057/0.23.1680.940@0.23.1680.940" timestamp="1589835456701" />
+    <state width="1379" height="660" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1589856894011" />
+    <state width="1379" height="238" key="GridCell.Tab.0.center/0.23.1920.970@0.23.1920.970" timestamp="1589821588381" />
+    <state width="1379" height="660" key="GridCell.Tab.0.left" timestamp="1589856894010">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1379" height="238" key="GridCell.Tab.0.left/-128.-1057.1920.1057/0.23.1680.940@0.23.1680.940" timestamp="1589835456700" />
+    <state width="1379" height="660" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1589856894010" />
+    <state width="1379" height="238" key="GridCell.Tab.0.left/0.23.1920.970@0.23.1920.970" timestamp="1589821588380" />
+    <state width="1379" height="660" key="GridCell.Tab.0.right" timestamp="1589856894011">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1379" height="238" key="GridCell.Tab.0.right/-128.-1057.1920.1057/0.23.1680.940@0.23.1680.940" timestamp="1589835456701" />
+    <state width="1379" height="660" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1589856894011" />
+    <state width="1379" height="238" key="GridCell.Tab.0.right/0.23.1920.970@0.23.1920.970" timestamp="1589821588381" />
+    <state width="1379" height="294" key="GridCell.Tab.1.bottom" timestamp="1589661296610">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1379" height="294" key="GridCell.Tab.1.bottom/0.23.1680.940@0.23.1680.940" timestamp="1589661296610" />
+    <state width="1379" height="294" key="GridCell.Tab.1.center" timestamp="1589661296610">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1379" height="294" key="GridCell.Tab.1.center/0.23.1680.940@0.23.1680.940" timestamp="1589661296610" />
+    <state width="1379" height="294" key="GridCell.Tab.1.left" timestamp="1589661296609">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1379" height="294" key="GridCell.Tab.1.left/0.23.1680.940@0.23.1680.940" timestamp="1589661296609" />
+    <state width="1379" height="294" key="GridCell.Tab.1.right" timestamp="1589661296610">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state width="1379" height="294" key="GridCell.Tab.1.right/0.23.1680.940@0.23.1680.940" timestamp="1589661296610" />
+    <state x="537" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1589849230705">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="537" y="305" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1589849230705" />
+    <state x="614" y="314" key="com.intellij.ide.util.TipDialog/0.23.1920.970@0.23.1920.970" timestamp="1586643066542" />
+    <state x="524" y="230" width="667" height="486" key="find.popup" timestamp="1589601725607">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="524" y="230" width="667" height="486" key="find.popup/0.23.1680.940@0.23.1680.940" timestamp="1589601725607" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="obj.archetype.custom_type.name" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
