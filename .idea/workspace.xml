@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e914bf75-1cbb-4f5b-85d8-af1e2bff4453" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoogleVisionClient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IdentifyObjects.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playAllAnimations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vector_animations.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,49 +40,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PlayMusic">
-    <configuration name="ChuckNorrisJokes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="VectorPlay" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ChuckNorrisJokes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GoogleVisionClient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="VectorPlay" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GoogleVisionClient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.playAllAnimations">
     <configuration name="IdentifyObjects" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VectorPlay" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,6 +104,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="playAllAnimations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VectorPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playAllAnimations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="remote_control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VectorPlay" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,21 +146,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VectorPlay" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.VectorPlay" />
-      <item itemvalue="Python.ChuckNorrisJokes" />
-      <item itemvalue="Python.GoogleVisionClient" />
       <item itemvalue="Python.IdentifyObjects" />
       <item itemvalue="Python.remote_control" />
       <item itemvalue="Python.PlayMusic" />
+      <item itemvalue="Python.playAllAnimations" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.playAllAnimations" />
         <item itemvalue="Python.PlayMusic" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.IdentifyObjects" />
         <item itemvalue="Python.remote_control" />
-        <item itemvalue="Python.GoogleVisionClient" />
-        <item itemvalue="Python.ChuckNorrisJokes" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +203,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -222,62 +224,66 @@
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="621" y="183" key="#xdebugger.evaluate/0.23.1680.940@0.23.1680.940" timestamp="1589647206994" />
-    <state width="1680" height="438" key="DebuggerActiveHint" timestamp="1589657002915">
+    <state width="1680" height="438" key="DebuggerActiveHint" timestamp="1590258972407">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1680" height="438" key="DebuggerActiveHint/0.23.1680.940@0.23.1680.940" timestamp="1589657002915" />
+    <state width="1680" height="438" key="DebuggerActiveHint/0.23.1680.940@0.23.1680.940" timestamp="1590258972407" />
     <state x="258" y="123" width="1200" height="700" key="DiffContextDialog" timestamp="1590166253299">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="258" y="123" width="1200" height="700" key="DiffContextDialog/0.23.1680.940@0.23.1680.940" timestamp="1590166253299" />
-    <state width="1659" height="187" key="GridCell.Tab.0.bottom" timestamp="1590172528616">
+    <state width="1659" height="187" key="GridCell.Tab.0.bottom" timestamp="1590263308069">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state width="1379" height="238" key="GridCell.Tab.0.bottom/-128.-1057.1920.1057/0.23.1680.940@0.23.1680.940" timestamp="1589835456702" />
-    <state width="1659" height="187" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1590172528616" />
+    <state width="1659" height="187" key="GridCell.Tab.0.bottom/0.23.1680.940@0.23.1680.940" timestamp="1590263308069" />
     <state width="1379" height="238" key="GridCell.Tab.0.bottom/0.23.1920.970@0.23.1920.970" timestamp="1589821588381" />
-    <state width="1659" height="187" key="GridCell.Tab.0.center" timestamp="1590172528615">
+    <state width="1659" height="187" key="GridCell.Tab.0.center" timestamp="1590263308068">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state width="1379" height="238" key="GridCell.Tab.0.center/-128.-1057.1920.1057/0.23.1680.940@0.23.1680.940" timestamp="1589835456701" />
-    <state width="1659" height="187" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1590172528615" />
+    <state width="1659" height="187" key="GridCell.Tab.0.center/0.23.1680.940@0.23.1680.940" timestamp="1590263308068" />
     <state width="1379" height="238" key="GridCell.Tab.0.center/0.23.1920.970@0.23.1920.970" timestamp="1589821588381" />
-    <state width="1659" height="187" key="GridCell.Tab.0.left" timestamp="1590172528615">
+    <state width="1659" height="187" key="GridCell.Tab.0.left" timestamp="1590263308067">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state width="1379" height="238" key="GridCell.Tab.0.left/-128.-1057.1920.1057/0.23.1680.940@0.23.1680.940" timestamp="1589835456700" />
-    <state width="1659" height="187" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1590172528615" />
+    <state width="1659" height="187" key="GridCell.Tab.0.left/0.23.1680.940@0.23.1680.940" timestamp="1590263308067" />
     <state width="1379" height="238" key="GridCell.Tab.0.left/0.23.1920.970@0.23.1920.970" timestamp="1589821588380" />
-    <state width="1659" height="187" key="GridCell.Tab.0.right" timestamp="1590172528615">
+    <state width="1659" height="187" key="GridCell.Tab.0.right" timestamp="1590263308068">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state width="1379" height="238" key="GridCell.Tab.0.right/-128.-1057.1920.1057/0.23.1680.940@0.23.1680.940" timestamp="1589835456701" />
-    <state width="1659" height="187" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1590172528615" />
+    <state width="1659" height="187" key="GridCell.Tab.0.right/0.23.1680.940@0.23.1680.940" timestamp="1590263308068" />
     <state width="1379" height="238" key="GridCell.Tab.0.right/0.23.1920.970@0.23.1920.970" timestamp="1589821588381" />
-    <state width="1659" height="309" key="GridCell.Tab.1.bottom" timestamp="1590171438677">
+    <state width="1659" height="309" key="GridCell.Tab.1.bottom" timestamp="1590261598612">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1659" height="309" key="GridCell.Tab.1.bottom/0.23.1680.940@0.23.1680.940" timestamp="1590171438677" />
-    <state width="1659" height="309" key="GridCell.Tab.1.center" timestamp="1590171438677">
+    <state width="1659" height="309" key="GridCell.Tab.1.bottom/0.23.1680.940@0.23.1680.940" timestamp="1590261598612" />
+    <state width="1659" height="309" key="GridCell.Tab.1.center" timestamp="1590261598612">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1659" height="309" key="GridCell.Tab.1.center/0.23.1680.940@0.23.1680.940" timestamp="1590171438677" />
-    <state width="1659" height="309" key="GridCell.Tab.1.left" timestamp="1590171438677">
+    <state width="1659" height="309" key="GridCell.Tab.1.center/0.23.1680.940@0.23.1680.940" timestamp="1590261598612" />
+    <state width="1659" height="309" key="GridCell.Tab.1.left" timestamp="1590261598612">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1659" height="309" key="GridCell.Tab.1.left/0.23.1680.940@0.23.1680.940" timestamp="1590171438677" />
-    <state width="1659" height="309" key="GridCell.Tab.1.right" timestamp="1590171438677">
+    <state width="1659" height="309" key="GridCell.Tab.1.left/0.23.1680.940@0.23.1680.940" timestamp="1590261598612" />
+    <state width="1659" height="309" key="GridCell.Tab.1.right" timestamp="1590261598612">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state width="1659" height="309" key="GridCell.Tab.1.right/0.23.1680.940@0.23.1680.940" timestamp="1590171438677" />
+    <state width="1659" height="309" key="GridCell.Tab.1.right/0.23.1680.940@0.23.1680.940" timestamp="1590261598612" />
     <state x="359" y="110" key="SettingsEditor" timestamp="1590171120361">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
     <state x="359" y="110" key="SettingsEditor/0.23.1680.940@0.23.1680.940" timestamp="1590171120361" />
-    <state x="537" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1589849230705">
+    <state width="840" height="470" key="XDebugger.FullValuePopup" timestamp="1590173155475">
       <screen x="0" y="23" width="1680" height="940" />
     </state>
-    <state x="537" y="305" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1589849230705" />
+    <state width="840" height="470" key="XDebugger.FullValuePopup/0.23.1680.940@0.23.1680.940" timestamp="1590173155475" />
+    <state x="537" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1590261646741">
+      <screen x="0" y="23" width="1680" height="940" />
+    </state>
+    <state x="537" y="305" key="com.intellij.ide.util.TipDialog/0.23.1680.940@0.23.1680.940" timestamp="1590261646741" />
     <state x="614" y="314" key="com.intellij.ide.util.TipDialog/0.23.1920.970@0.23.1920.970" timestamp="1586643066542" />
     <state x="405" y="236" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1590171203623">
       <screen x="0" y="23" width="1680" height="940" />
@@ -299,6 +305,16 @@
           <url>file://$PROJECT_DIR$/EventListener.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/IdentifyObjects.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HappyBirthday.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
