@@ -13,7 +13,9 @@
 # limitations under the License.
 
 """
-Management of the connection to and from Vector.
+Replace the original file with this file to get ad hoc control
+This file is present on raspberry pi under
+/home/pi/.local/lib/python3.7/site-packages/anki_vector
 """
 
 # __all__ should order by constants, event classes, other classes, functions.
@@ -438,7 +440,7 @@ class Connection:
         except futures.TimeoutError as e:
             raise VectorControlTimeoutException(f"Surpassed timeout of {timeout}s") from e
 
-    def connect(self, timeout: float = 10.0) -> None:
+    def connect(self, timeout: float = 10.0, take_control : bool = True) -> None:
         """Connect to Vector. This will start the connection thread which handles all messages
         between Vector and Python.
 
@@ -464,7 +466,7 @@ class Connection:
         if self._thread:
             raise VectorAsyncException("\n\nRepeated connections made to open Connection.")
         self._ready_signal.clear()
-        self._thread = threading.Thread(target=self._connect, args=(timeout,), daemon=True, name="gRPC Connection Handler Thread")
+        self._thread = threading.Thread(target=self._connect, args=(timeout, take_control), daemon=True, name="gRPC Connection Handler Thread")
         self._thread.start()
         ready = self._ready_signal.wait(timeout=2 * timeout)
         if not ready:
@@ -474,7 +476,7 @@ class Connection:
             delattr(self._ready_signal, "exception")
             raise e
 
-    def _connect(self, timeout: float) -> None:
+    def _connect(self, timeout: float, take_control : bool = True) -> None:
         """The function that runs on the connection thread. This will connect to Vector,
         and establish the BehaviorControl stream.
         """
@@ -534,7 +536,8 @@ class Connection:
             self._loop.run_until_complete(self._interface.SDKInitialization(initialize))
 
             if self._behavior_control_level:
-                self._loop.run_until_complete(self._request_control(behavior_control_level=self._behavior_control_level, timeout=timeout))
+                if take_control:
+                    self._loop.run_until_complete(self._request_control(behavior_control_level=self._behavior_control_level, timeout=timeout))
         except Exception as e:  # pylint: disable=broad-except
             # Propagate the errors to the calling thread
             setattr(self._ready_signal, "exception", e)
