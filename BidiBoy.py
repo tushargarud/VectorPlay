@@ -44,13 +44,14 @@ def on_object_observed(robot, event_type, event, evt):
         print(f"{interval} seconds since last joke")
 
 
-with anki_vector.Robot(enable_face_detection=True, take_control=False) as robot:
+with anki_vector.Robot(enable_face_detection=True, take_control=True) as robot:
     # If necessary, move Vector's Head and Lift to make it easy to see his face
     # robot.behavior.set_head_angle(degrees(45.0))
     # robot.behavior.set_lift_height(0.0)
 
     evt = threading.Event()
     robot.events.subscribe(on_object_observed, Events.robot_observed_face, evt)
+    robot.conn.release_control()
 
     print("------ waiting for face events, press ctrl+c to exit early ------")
 
