@@ -19,7 +19,6 @@ LAST_INTERACTION = datetime.datetime.now() - datetime.timedelta(seconds=40)
 
 def ask_for_smoke(robot):
     global LAST_INTERACTION
-    robot.conn.request_control()
     try:
         print("Asking for smoke")
         robot.behavior.say_text('Wanna go for a smoke?')
@@ -36,14 +35,16 @@ def on_object_observed(robot, event_type, event, evt):
     interval = (datetime.datetime.now() - LAST_INTERACTION).total_seconds()
     if interval > CONST_JOKE_INTERVAL_SECS:
         if event.name:
+            robot.conn.request_control()
             robot.behavior.say_text(f"Hi {event.name}")
             time.sleep(0.5)
             ask_for_smoke(robot)
+            robot.conn.release_control()
     else:
         print(f"{interval} seconds since last joke")
 
 
-with anki_vector.Robot(enable_face_detection=True) as robot:
+with anki_vector.Robot(enable_face_detection=True, take_control=False) as robot:
     # If necessary, move Vector's Head and Lift to make it easy to see his face
     robot.behavior.set_head_angle(degrees(45.0))
     robot.behavior.set_lift_height(0.0)
