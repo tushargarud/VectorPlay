@@ -25,7 +25,7 @@ import time
 def main():
     args = anki_vector.util.parse_command_args()
     with anki_vector.Robot(args.serial) as robot:
-        # robot.behavior.say_text("Hello ")
+        robot.behavior.say_text("Hello ")
         # robot.anim.play_animation('anim_eyepose_furious')
         # robot.anim.play_animation('anim_movement_forward_01')
         robot.anim.play_animation('anim_eyepose_sad_up')
