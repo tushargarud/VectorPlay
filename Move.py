@@ -24,15 +24,14 @@ parser.add_argument("direction")
 args = anki_vector.util.parse_command_args(parser)
 
 with anki_vector.Robot(args.serial) as robot:
-    if args.person_name.lower() == 'forward':
-        robot.behavior.drive_straight(distance_mm(50), speed_mmps(100), True)
-    elif args.person_name.lower() == 'backward':
-        robot.behavior.drive_straight(distance_mm(50)*-1, speed_mmps(100), True)
-    elif args.person_name.lower() == 'left':
+    if args.direction.lower() == 'forward':
+        robot.behavior.drive_straight(distance_mm(500), speed_mmps(150))
+    elif args.direction.lower() == 'backward':
+        robot.behavior.drive_straight(distance_mm(-500), speed_mmps(150))
+    elif args.direction.lower() == 'left':
         robot.behavior.turn_in_place(degrees(90))
-    elif args.person_name.lower() == 'right':
+        robot.behavior.drive_straight(distance_mm(500), speed_mmps(150))
+    elif args.direction.lower() == 'right':
         robot.behavior.turn_in_place(degrees(-90))
-    else:
-        robot.motors.stop_all_motors()
+        robot.behavior.drive_straight(distance_mm(500), speed_mmps(150))
 
-    time.sleep(5)
