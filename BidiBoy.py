@@ -31,6 +31,7 @@ def ask_for_smoke(robot):
 
 
 def on_object_observed(robot, event_type, event, evt):
+    print(f"Observed face")
     global LAST_INTERACTION
     interval = (datetime.datetime.now() - LAST_INTERACTION).total_seconds()
     if interval > CONST_JOKE_INTERVAL_SECS:
