@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e914bf75-1cbb-4f5b-85d8-af1e2bff4453" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BidiBoy.py" beforeDir="false" afterPath="$PROJECT_DIR$/BidiBoy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Move.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
