@@ -14,17 +14,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Hello World
-
-Make Vector say 'Hello World' in this simple Vector SDK example program.
-"""
 
 import anki_vector
+from anki_vector.util import degrees
+import time
 
-def main():
-    args = anki_vector.util.parse_command_args()
-    with anki_vector.Robot(args.serial) as robot:
-        robot.audio.stream_wav_file('/Users/tg415h/Downloads/cat.wav')
-
-if __name__ == "__main__":
-    main()
+with anki_vector.AsyncRobot() as robot:
+    say_future = robot.audio.stream_wav_file('/home/pi/vector_programs/VectorPlay/sounds/cat.wav', 100)
+    turn_future = robot.behavior.look_around_in_place()
+    say_future.result()
+    turn_future.cancel()
